@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Recambios 3D · Piezas descatalogadas para tractores, cosechadoras y motos</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#EEF0EA;--surface:#FFFFFF;--ink:#1F2A1C;--muted:#566052;--green:#2F4A2B;--on-green:#F4F6EE;--yellow:#E8B923;--line:#C9CFC2;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#151B13;--surface:#1E271B;--ink:#E9EEE1;--muted:#A3AD9C;--green:#2F4A2B;--on-green:#F4F6EE;--yellow:#E8B923;--line:#33402F;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#151B13;--surface:#1E271B;--ink:#E9EEE1;--muted:#A3AD9C;--line:#33402F;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.55 Barlow,system-ui,sans-serif}
+h1,h2,h3{font-family:"Barlow Condensed","Arial Narrow",sans-serif;line-height:1.05;margin:0}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+header.hero{background:var(--green);color:var(--on-green);padding:64px 0 56px;border-bottom:8px solid var(--yellow)}
+header.hero h1{font-size:clamp(44px,8vw,84px);font-weight:700;max-width:14ch}
+header.hero p{max-width:54ch;font-size:19px;margin:20px 0 28px;color:#DDE5D0}
+.btn{display:inline-block;background:var(--yellow);color:#1F2A1C;font:700 19px Arial,Helvetica,sans-serif;letter-spacing:.03em;padding:14px 26px;border:0;border-radius:4px;cursor:pointer;text-decoration:none}
+.btn:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid var(--yellow);outline-offset:2px}
+section{padding:56px 0}
+h2{font-size:clamp(32px,5vw,46px);font-weight:700;margin-bottom:10px}
+.lead{color:var(--muted);max-width:62ch;margin:0 0 28px}
+.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:6px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;min-width:720px;font-size:16px}
+th,td{text-align:left;padding:12px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font:700 18px "Barlow Condensed",sans-serif;background:color-mix(in srgb,var(--green) 12%,var(--surface))}
+tr:last-child td{border-bottom:0}
+tr.ours td{background:color-mix(in srgb,var(--yellow) 22%,var(--surface))}
+.bar{display:inline-block;width:90px;height:10px;background:var(--line);border-radius:2px;position:relative;vertical-align:middle}
+.bar i{position:absolute;inset:0 auto 0 0;background:var(--green);border-radius:2px}
+.note{font-size:15px;color:var(--muted);margin-top:12px}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:22px}
+.tab{font:600 16px Barlow,sans-serif;padding:9px 16px;border:2px solid var(--green);background:transparent;color:var(--ink);border-radius:4px;cursor:pointer}
+.tab[aria-pressed="true"]{background:var(--green);color:var(--on-green)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:16px}
+.card{background:var(--surface);border:1px solid var(--line);border-left:6px solid var(--yellow);padding:16px;border-radius:4px}
+.card h3{font-size:24px;margin-bottom:6px}
+.card p{margin:0 0 10px;font-size:15px;color:var(--muted)}
+.tag{font-size:14px;font-weight:600;color:var(--green)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .tag{color:var(--yellow)}}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;counter-reset:s;padding:0;list-style:none;margin:0}
+.steps li{counter-increment:s;padding-top:12px;border-top:4px solid var(--green)}
+.steps li::before{content:"Paso " counter(s);font:700 20px "Barlow Condensed",sans-serif;display:block;color:var(--muted)}
+.steps b{font-size:19px}
+form{background:var(--surface);border:1px solid var(--line);padding:24px;border-radius:6px;display:grid;gap:16px;grid-template-columns:1fr 1fr}
+form .full{grid-column:1/-1}
+label{display:grid;gap:6px;font-weight:600;font-size:15px}
+input,select,textarea{font:400 17px Barlow,sans-serif;padding:11px;border:1px solid var(--muted);border-radius:4px;background:var(--bg);color:var(--ink);width:100%}
+#ok{display:none;background:color-mix(in srgb,var(--green) 18%,var(--surface));border-left:6px solid var(--green);padding:16px;border-radius:4px;margin-top:16px}
+footer{background:var(--green);color:var(--on-green);padding:28px 0;font-size:15px}
+@media (max-width:620px){form{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header class="hero"><div class="wrap">
+<h1>La pieza que ya no existe, otra vez en tu máquina</h1>
+<p>Fabricamos bajo pedido recambios de plástico impresos en 3D para tractores, cosechadoras y motos cuando el fabricante ya no los vende. Nylon con fibra de carbono para las piezas que trabajan de verdad.</p>
+<a class="btn" href="#pedir">Pedir una pieza</a>
+</div></header>
+
+<section id="materiales"><div class="wrap">
+<h2>Materiales, de menos a más calidad</h2>
+<p class="lead">Cada pieza se imprime con el material que aguanta su trabajo: sol, aceite, calor de motor o esfuerzo mecánico. Imprimimos en una impresora cerrada, necesaria para los materiales técnicos del final de la tabla.</p>
+<div class="tablewrap"><table>
+<thead><tr><th>Material</th><th>Calidad</th><th>Aguanta</th><th>Sirve para</th></tr></thead>
+<tbody>
+<tr><td><b>PLA</b></td><td><span class="bar"><i style="width:15%"></i></span></td><td>Poco calor (unos 55 °C), frágil</td><td>Prototipos y pruebas de ajuste. No para uso real.</td></tr>
+<tr><td><b>PETG</b></td><td><span class="bar"><i style="width:35%"></i></span></td><td>Humedad y golpes leves, hasta unos 70 °C</td><td>Tapas, carcasas y piezas lejos del motor.</td></tr>
+<tr><td><b>ABS</b></td><td><span class="bar"><i style="width:50%"></i></span></td><td>Calor medio (unos 95 °C), resistente</td><td>Piezas de salpicadero y carenados interiores.</td></tr>
+<tr><td><b>ASA</b></td><td><span class="bar"><i style="width:60%"></i></span></td><td>Como el ABS, pero aguanta sol y lluvia</td><td>Piezas exteriores de moto y tractor.</td></tr>
+<tr><td><b>TPU</b> (flexible)</td><td><span class="bar"><i style="width:55%"></i></span></td><td>Goma: absorbe golpes y vibración</td><td>Fuelles, gomas, topes y juntas.</td></tr>
+<tr><td><b>Nylon (PA6 / PA12)</b></td><td><span class="bar"><i style="width:75%"></i></span></td><td>Desgaste, fricción y golpes</td><td>Engranajes, casquillos y piezas móviles.</td></tr>
+<tr class="ours"><td><b>Nylon con fibra de carbono (PA-CF)</b></td><td><span class="bar"><i style="width:92%"></i></span></td><td>Rígido, estable y resistente al calor (más de 140 °C)</td><td>Soportes, manetas, palancas y piezas cerca del motor.</td></tr>
+<tr class="ours"><td><b>PPA-CF / PET-CF</b></td><td><span class="bar"><i style="width:100%"></i></span></td><td>El más rígido; aguanta aceite y temperaturas altas</td><td>Piezas estructurales y de alta exigencia.</td></tr>
+</tbody></table></div>
+<p class="note">Las temperaturas son orientativas y dependen del fabricante del filamento. Te recomendamos el material al pedir la pieza.</p>
+</div></section>
+
+<section id="catalogo" style="background:var(--surface);border-block:1px solid var(--line)"><div class="wrap">
+<h2>Qué fabricamos</h2>
+<p class="lead">Ejemplos de piezas que suelen estar descatalogadas. Si no ves la tuya, pídela: la hacemos a partir de tu pieza rota.</p>
+<div class="tabs" role="group" aria-label="Filtrar por máquina">
+<button class="tab" aria-pressed="true" data-f="todo">Todo</button>
+<button class="tab" aria-pressed="false" data-f="tractor">Tractores</button>
+<button class="tab" aria-pressed="false" data-f="cosechadora">Cosechadoras</button>
+<button class="tab" aria-pressed="false" data-f="moto">Motos</button>
+</div>
+<div class="grid" id="grid"></div>
+</div></section>
+
+<section id="como"><div class="wrap">
+<h2>Cómo funciona</h2>
+<p class="lead">No necesitas saber de diseño 3D. Tú traes la pieza o los datos; el diseño lo resolvemos nosotros.</p>
+<ol class="steps">
+<li><b>Cuéntanos qué necesitas</b><br>Máquina, modelo y pieza. Una foto con medidas nos basta.</li>
+<li><b>Modelamos la pieza</b><br>La replicamos a partir de tu pieza rota o de las fotos.</li>
+<li><b>Te damos precio y material</b><br>Antes de imprimir sabes cuánto cuesta y de qué será.</li>
+<li><b>Imprimimos y enviamos</b><br>Nylon-carbono u otro material, según el trabajo de la pieza.</li>
+</ol>
+</div></section>
+
+<section id="pedir" style="background:var(--surface);border-top:1px solid var(--line)"><div class="wrap">
+<h2>Pide tu pieza</h2>
+<p class="lead">Rellena lo que sepas. Si no conoces la referencia, descríbela y adjunta fotos cuando te contestemos.</p>
+<form id="f">
+<label>Tipo de máquina<select id="tipo" required><option value="">Elige una</option><option>Tractor</option><option>Cosechadora</option><option>Moto</option><option>Otra máquina agrícola</option></select></label>
+<label>Marca y modelo<input id="mod" required placeholder="Ej.: Massey Ferguson 188"></label>
+<label class="full">Pieza que necesitas<textarea id="pieza" rows="3" required placeholder="Ej.: maneta del embrague rota, tapa del depósito, rejilla del salpicadero"></textarea></label>
+<label>Tu correo<input id="mail" type="email" required placeholder="nombre@correo.es"></label>
+<label>Teléfono (opcional)<input id="tel" type="tel"></label>
+<div class="full"><button class="btn" type="submit">Pedir presupuesto</button></div>
+</form>
+<div id="ok" role="status"></div>
+</div></section>
+
+<footer><div class="wrap">Recambios 3D. Piezas bajo pedido, fabricadas en nylon con fibra de carbono y otros materiales técnicos.</div></footer>
+
+<script>
+var P=[
+["Maneta de embrague","moto","Nylon con fibra de carbono","Rígida y no se deforma con el calor."],
+["Tapa lateral","moto","ASA","Resiste sol y lluvia sin amarillear."],
+["Soporte de espejo","moto","Nylon con fibra de carbono","Aguanta la vibración del motor."],
+["Clips y grapas de carenado","moto","Nylon (PA12)","Elásticas, no se rompen al desmontar."],
+["Mando de palanca de cabina","tractor","ABS","Replica el tacto del original."],
+["Tapón de depósito","tractor","PETG","Para combustible y agua; consulta el uso."],
+["Engranaje de cuadro de mandos","tractor","Nylon (PA6)","Bajo desgaste y bajo ruido."],
+["Rejilla de ventilación","tractor","ASA","Aguanta el sol del campo."],
+["Casquillo y buje de palanca","cosechadora","Nylon con fibra de carbono","Fricción alta y poco juego."],
+["Guía de cable","cosechadora","Nylon (PA6)","Resiste el roce continuo."],
+["Cubierta de sensor","cosechadora","ASA","Protege del polvo y la intemperie."],
+["Soporte de piloto o faro","cosechadora","Nylon con fibra de carbono","Rígido frente a vibraciones."]
+];
+var g=document.getElementById("grid");
+function draw(f){g.innerHTML="";P.filter(function(p){return f=="todo"||p[1]==f}).forEach(function(p){
+var d=document.createElement("div");d.className="card";
+var h=document.createElement("h3");h.textContent=p[0];
+var t=document.createElement("p");t.textContent=p[3];
+var m=document.createElement("span");m.className="tag";m.textContent=p[2];
+d.appendChild(h);d.appendChild(t);d.appendChild(m);g.appendChild(d)})}
+draw("todo");
+document.querySelectorAll(".tab").forEach(function(b){b.onclick=function(){
+document.querySelectorAll(".tab").forEach(function(x){x.setAttribute("aria-pressed","false")});
+b.setAttribute("aria-pressed","true");draw(b.dataset.f)}});
+document.getElementById("f").onsubmit=function(e){e.preventDefault();
+var o=document.getElementById("ok");
+o.textContent="Pedido recibido: "+document.getElementById("pieza").value+" para "+document.getElementById("mod").value+". Te responderemos a "+document.getElementById("mail").value+" con material y precio.";
+o.style.display="block";this.reset()};
+</script>
+</body>
+</html>
